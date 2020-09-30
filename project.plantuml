@@ -1,0 +1,164 @@
+@startuml
+
+title __CLIENT's Class Diagram__\n
+
+  namespace project.rest.client {
+    class project.rest.client.RestApplication {
+        + getClasses() : Set<Class<?>>
+    }
+    namespace resources {
+          class project.rest.client.resources.AuthResource {
+              + authenticate(String, String, String, String) : Response
+              + authenticate(UUID) : Response
+              + options() : Response
+          }
+          class project.rest.client.resources.MiningResource {
+              + mine(UUID, String, String) : Response
+              + options() : Response
+              - getContent(String) : String
+          }
+    }
+    namespace response {
+          class project.rest.client.response.CORSFilter {
+              + filter(ContainerRequestContext, ContainerResponseContext) : void
+          }
+          class project.rest.client.response.InfoMessage {
+              - message : String
+              - status : int
+              + InfoMessage() : InfoMessage
+              + InfoMessage(int, String) : InfoMessage
+              + getMessage() : String
+              + getStatus() : int
+              + setMessage(String) : void
+              + setStatus(int) : void
+          }
+          class project.rest.client.response.MiningResponse {
+              - tables : List<TableInfo>
+              - warnings : List<InfoMessage>
+              + MiningResponse() : MiningResponse
+              + MiningResponse(List<TableInfo>, List<InfoMessage>) : MiningResponse
+              + getTables() : List<TableInfo>
+              + getWarnings() : List<InfoMessage>
+              + setTables(List<TableInfo>) : void
+              + setWarnings(List<InfoMessage>) : void
+          }
+          class project.rest.client.response.TableInfo {
+              - columns : List<String>
+              - name : String
+              - rowsWritten : int
+              + TableInfo() : TableInfo
+              + TableInfo(Table) : TableInfo
+              + getColumns() : List<String>
+              + getName() : String
+              + getRowsWritten() : int
+              + setColumns(List<String>) : void
+              + setName(String) : void
+              + setRowsWritten(int) : void
+          }
+    }
+    namespace mining {
+           class project.rest.client.mining.ContentFilters {
+               {static} + clean(String) : String
+               {static} + extract(String) : String
+               {static} + reservedKeyword(String) : boolean
+               {static} + rowspan(String) : int
+           }
+           class project.rest.client.mining.Table {
+               - columnTypeMap : Map<Integer, String>
+               - columns : List<String>
+               - name : String
+               - rows : List<List<String>>
+               + Table() : Table
+               + Table(String, List<String>, List<List<String>>, Map<Integer,String>) : Table
+               + getColumnTypeMap() : Map<Integer, String>
+               + getColumns() : List<String>
+               + getName() : String
+               + getRows() : List<List<String>>
+               + setColumnTypeMap(Map<Integer, String>) : void
+               + setColumns(List<String>) : void
+               + setName(String) : void
+               + setRows(List<List<String>>) : void
+           }
+           class project.rest.client.mining.WebMiner {
+               {static} + parse(String) : List<Table>
+           }
+    }
+    namespace code {
+          class project.rest.client.code.Regex {
+              {static} + allTags : String
+              {static} + bannedCharacters : String
+              {static} + breakLine : String
+              {static} + citations : String
+              {static} + editSection : String
+              {static} + hashtag : String
+              {static} + headers : String
+              {static} + lineBreak : String
+              {static} + multiUnderscores : String
+              {static} + protectedSpace : String
+              {static} + rowSpan : String
+              {static} + tabBreak : String
+              {static} + tableElements : String
+              {static} + tableHeaders : String
+              {static} + tableRows : String
+          }
+          class project.rest.client.code.SQLRequests {
+              {static} + SQL_CREATE_DATABASE : String
+              {static} + SQL_CREATE_TABLE : String
+              {static} + SQL_INSERT : String
+          }
+          class project.rest.client.code.StaticInfo {
+              {static} + dbDefault : String
+              {static} + dbPrefix : String
+              {static} + errorDBMissing : String
+              {static} + noTargetDefined : String
+              {static} + tokenMissing : String
+              {static} + unableToLoadURI : String
+          }
+     }
+    namespace auth {
+           class project.rest.client.auth.AuthToken {
+               - token : UUID
+               + AuthToken() : AuthToken
+               + getToken() : UUID
+               + setToken(UUID) : void
+           }
+           class project.rest.client.auth.Credentials {
+               - db : String
+               - password : String
+               - uri : String
+               - username : String
+               + Credentials() : Credentials
+               + Credentials(String, String, String, String) : Credentials
+               + getDb() : String
+               + getPassword() : String
+               + getUri() : String
+               + getUsername() : String
+               + setDb(String) : void
+               + setPassword(String) : void
+               + setUri(String) : void
+               + setUsername(String) : void
+               + use() : Connection
+           }
+           class project.rest.client.auth.TokenManager {
+               - tokenCredentialsMap : Map<UUID, Credentials>
+               + TokenManager() : TokenManager
+               + add() : void
+               + delete() : void
+               + get() : Credentials
+           }
+    }
+  }
+
+  project.rest.client.RestApplication -up-|> javax.ws.rs.core.Application
+  project.rest.client.resources.AuthResource o-- project.rest.client.auth.TokenManager : tokenManager
+  project.rest.client.resources.MiningResource o-- project.rest.client.auth.TokenManager : tokenManager
+  project.rest.client.response.CORSFilter .up.|> javax.ws.rs.container.ContainerResponseFilter
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

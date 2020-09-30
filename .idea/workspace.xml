@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7263c6e5-f555-4c14-87e4-3580a7bae39c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cZzwwCvQQsiwwiYuRCQrcG1f9G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="project.rest.client.mining" />
+      <recent name="project.rest.client" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Finlay\Desktop\workspace\java-info\info-rest\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Finlay\Desktop\workspace\java-info\info-restcp\src" />
+      <recent name="C:\Users\Finlay\Desktop\workspace\java-info\info-restcp\src\main\test\java" />
+      <recent name="C:\Users\Finlay\Desktop\workspace\java-info\info-restcp2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="GlassFish Server.Payara">
+    <configuration name="GlassFish 5.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.1.0" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <file path="$PROJECT_DIR$/target/client.war">
+          <settings />
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration name="Payara" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Payara" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <file path="$PROJECT_DIR$/target/client.war">
+          <settings />
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration name="AuthResourceTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.rest.client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.rest.client.resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.rest.client.resources" />
+      <option name="MAIN_CLASS_NAME" value="project.rest.client.resources.AuthResourceTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CORSFilterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.rest.client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.rest.client.response.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.rest.client.response" />
+      <option name="MAIN_CLASS_NAME" value="project.rest.client.response.CORSFilterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContentFiltersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.rest.client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.rest.client.mining.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.rest.client.mining" />
+      <option name="MAIN_CLASS_NAME" value="project.rest.client.mining.ContentFiltersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.rest.client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.rest.client.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.rest.client.auth" />
+      <option name="MAIN_CLASS_NAME" value="project.rest.client.auth.TokenManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenManagerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.rest.client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.rest.client.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.rest.client.auth" />
+      <option name="MAIN_CLASS_NAME" value="project.rest.client.auth.TokenManagerTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="GlassFish Server.GlassFish 5.1" />
+      <item itemvalue="GlassFish Server.Payara" />
+      <item itemvalue="JUnit.ContentFiltersTest" />
+      <item itemvalue="JUnit.AuthResourceTest.testLogin" />
+      <item itemvalue="JUnit.CORSFilterTest" />
+      <item itemvalue="JUnit.TokenManagerTest" />
+      <item itemvalue="JUnit.TokenManagerTest.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TokenManagerTest.test" />
+        <item itemvalue="JUnit.TokenManagerTest" />
+        <item itemvalue="JUnit.CORSFilterTest" />
+        <item itemvalue="JUnit.AuthResourceTest.testLogin" />
+        <item itemvalue="JUnit.ContentFiltersTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="GlassFish Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="GlassFish Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7263c6e5-f555-4c14-87e4-3580a7bae39c" name="Default Changelist" comment="" />
+      <created>1590751146856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590751146856</updated>
+      <workItem from="1590751153180" duration="1108000" />
+      <workItem from="1590763859667" duration="6028000" />
+      <workItem from="1590773338858" duration="593000" />
+      <workItem from="1591002416269" duration="611000" />
+      <workItem from="1591021602120" duration="1528000" />
+      <workItem from="1591026806419" duration="4912000" />
+      <workItem from="1591035498017" duration="1029000" />
+      <workItem from="1591095942971" duration="4288000" />
+      <workItem from="1591125172085" duration="3005000" />
+      <workItem from="1591163922917" duration="9000" />
+      <workItem from="1591207028670" duration="725000" />
+      <workItem from="1591275089955" duration="1696000" />
+      <workItem from="1591288443677" duration="73000" />
+      <workItem from="1591291091257" duration="349000" />
+      <workItem from="1591293562470" duration="167000" />
+      <workItem from="1591356540505" duration="3247000" />
+      <workItem from="1591367002421" duration="640000" />
+      <workItem from="1591367930324" duration="217000" />
+      <workItem from="1591368588036" duration="253000" />
+      <workItem from="1591369130461" duration="1924000" />
+      <workItem from="1591377632572" duration="94000" />
+      <workItem from="1591383364767" duration="419000" />
+      <workItem from="1591431821987" duration="420000" />
+      <workItem from="1591435293319" duration="147000" />
+      <workItem from="1591435541903" duration="129000" />
+      <workItem from="1591450029010" duration="7810000" />
+      <workItem from="1591460213253" duration="18000" />
+      <workItem from="1591462182111" duration="833000" />
+      <workItem from="1591463587754" duration="2646000" />
+      <workItem from="1591521085992" duration="9000" />
+      <workItem from="1591543321821" duration="4871000" />
+      <workItem from="1591603261304" duration="213000" />
+      <workItem from="1591604681315" duration="4000" />
+      <workItem from="1591608820528" duration="53000" />
+      <workItem from="1591615213178" duration="935000" />
+      <workItem from="1591618964312" duration="54000" />
+      <workItem from="1591622311542" duration="819000" />
+      <workItem from="1591633253474" duration="709000" />
+      <workItem from="1591634219029" duration="1625000" />
+      <workItem from="1591640822874" duration="376000" />
+      <workItem from="1591642116559" duration="293000" />
+      <workItem from="1591642559323" duration="210000" />
+      <workItem from="1591643153825" duration="1010000" />
+      <workItem from="1591686695242" duration="54000" />
+      <workItem from="1591702721788" duration="5732000" />
+      <workItem from="1591712250525" duration="7385000" />
+      <workItem from="1591729994823" duration="2822000" />
+      <workItem from="1591780275169" duration="32000" />
+      <workItem from="1591867002989" duration="40000" />
+      <workItem from="1591869066009" duration="138000" />
+      <workItem from="1591883242010" duration="183000" />
+      <workItem from="1591883461719" duration="57000" />
+      <workItem from="1591900250881" duration="948000" />
+      <workItem from="1591977944965" duration="1106000" />
+      <workItem from="1591982539628" duration="460000" />
+      <workItem from="1591986324479" duration="910000" />
+      <workItem from="1592045030666" duration="1511000" />
+      <workItem from="1592055746839" duration="1775000" />
+      <workItem from="1592059848147" duration="165000" />
+      <workItem from="1592060459587" duration="344000" />
+      <workItem from="1592061468834" duration="174000" />
+      <workItem from="1592061943041" duration="1481000" />
+      <workItem from="1592067304652" duration="352000" />
+      <workItem from="1592074902253" duration="3733000" />
+      <workItem from="1592128384561" duration="3261000" />
+      <workItem from="1592134738187" duration="1897000" />
+      <workItem from="1592136803101" duration="2907000" />
+      <workItem from="1592139974519" duration="1424000" />
+      <workItem from="1592141451051" duration="64000" />
+      <workItem from="1592141531047" duration="101000" />
+      <workItem from="1592143532046" duration="4000" />
+      <workItem from="1592144250684" duration="309000" />
+      <workItem from="1592145024814" duration="3155000" />
+      <workItem from="1592148196570" duration="71000" />
+      <workItem from="1592148282436" duration="262000" />
+      <workItem from="1592148560476" duration="81000" />
+      <workItem from="1592148721952" duration="107000" />
+      <workItem from="1592148849397" duration="584000" />
+      <workItem from="1592149485246" duration="602000" />
+      <workItem from="1592206790965" duration="1125000" />
+      <workItem from="1592492877024" duration="304000" />
+      <workItem from="1592832375694" duration="3805000" />
+      <workItem from="1592844894141" duration="1218000" />
+      <workItem from="1592848400615" duration="474000" />
+      <workItem from="1593272612637" duration="30000" />
+      <workItem from="1593272728490" duration="597000" />
+      <workItem from="1593273494847" duration="7000" />
+      <workItem from="1593362997747" duration="445000" />
+      <workItem from="1597593506677" duration="215000" />
+      <workItem from="1597776616222" duration="325000" />
+      <workItem from="1597849787916" duration="4632000" />
+      <workItem from="1597859281172" duration="1243000" />
+      <workItem from="1597950291424" duration="11000" />
+      <workItem from="1597997437858" duration="1611000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="553" y="180" key="#Notifications" timestamp="1592148297350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="553" y="180" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1592148297350" />
+    <state x="416" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593272632790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="416" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593272632790" />
+    <state x="93" y="93" width="1733" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1597852264565">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="93" y="93" width="1733" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597852264565" />
+    <state x="690" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592832538290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592832538290" />
+    <state x="766" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1592136318256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592136318256" />
+    <state x="692" y="303" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591126044263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="692" y="303" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591126044263" />
+    <state x="810" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591608823502">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="810" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591608823502" />
+    <state x="554" y="180" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1591462346309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="554" y="180" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1591462346309" />
+    <state x="755" y="406" width="408" height="286" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592835180302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="755" y="406" width="408" height="286" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1592835180302" />
+    <state x="691" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591615257360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="691" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591615257360" />
+    <state x="742" y="277" key="FileChooserDialogImpl" timestamp="1593272918250">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="742" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593272918250" />
+    <state width="1294" height="313" key="GridCell.Tab.0.bottom" timestamp="1598001618394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1294" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598001618394" />
+    <state width="1294" height="313" key="GridCell.Tab.0.center" timestamp="1598001618394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1294" height="313" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598001618394" />
+    <state width="1294" height="313" key="GridCell.Tab.0.left" timestamp="1598001618394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1294" height="313" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598001618394" />
+    <state width="1294" height="313" key="GridCell.Tab.0.right" timestamp="1598001618394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1294" height="313" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598001618394" />
+    <state width="1294" height="313" key="GridCell.Tab.1.bottom" timestamp="1598001618395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1294" height="313" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598001618395" />
+    <state width="1294" height="313" key="GridCell.Tab.1.center" timestamp="1598001618394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1294" height="313" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598001618394" />
+    <state width="1294" height="313" key="GridCell.Tab.1.left" timestamp="1598001618394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1294" height="313" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598001618394" />
+    <state width="1294" height="313" key="GridCell.Tab.1.right" timestamp="1598001618394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1294" height="313" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598001618394" />
+    <state width="1294" height="282" key="GridCell.Tab.2.bottom" timestamp="1591100158686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1294" height="282" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591100158686" />
+    <state width="1294" height="282" key="GridCell.Tab.2.center" timestamp="1591100158686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1294" height="282" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591100158686" />
+    <state width="1294" height="282" key="GridCell.Tab.2.left" timestamp="1591100158686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1294" height="282" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591100158686" />
+    <state width="1294" height="282" key="GridCell.Tab.2.right" timestamp="1591100158686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1294" height="282" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591100158686" />
+    <state x="441" y="96" key="SettingsEditor" timestamp="1598000674641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="441" y="96" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598000674641" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1591707043776">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1591707043776" />
+    <state x="656" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1597997442508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597997442508" />
+    <state x="609" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592075837456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="609" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592075837456" />
+    <state x="199" y="545" width="1890" height="1024" key="dock-window-1" timestamp="1591619008868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="199" y="545" width="1890" height="1024" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1591619008868" />
+    <state x="691" y="287" key="extract.method.dialog" timestamp="1591126460046">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="691" y="287" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591126460046" />
+    <state x="385" y="217" key="new project wizard" timestamp="1592139903752">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="385" y="217" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592139903752" />
+    <state x="626" y="249" width="672" height="677" key="run.anything.popup" timestamp="1598000678167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="626" y="249" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598000678167" />
+    <state x="624" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1591732782631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591732782631" />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+project\rest\client\code\SQLRequests.class
+project\rest\client\resources\AuthResource.class
+project\rest\client\auth\AuthToken.class
+project\rest\client\response\InfoMessage.class
+project\rest\client\mining\Table.class
+project\rest\client\auth\TokenManager.class
+project\rest\client\mining\WebMiner.class
+project\rest\client\resources\MiningResource.class
+project\rest\client\response\MiningResponse.class
+project\rest\client\response\CORSFilter.class
+project\rest\client\mining\ContentFilters.class
+project\rest\client\response\TableInfo.class
+project\rest\client\code\Regex.class
+project\rest\client\auth\Credentials.class
+project\rest\client\code\StaticInfo.class
+project\rest\client\RestApplication.class
